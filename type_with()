@@ -1,0 +1,7 @@
+# type with exceptional handling
+l=['a','b','c']
+try:
+    for i in l:
+            print(i**2)
+except:
+    print('type error encountered')

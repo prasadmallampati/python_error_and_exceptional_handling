@@ -1,0 +1,8 @@
+# zero division with with handling 
+x=2
+y=0
+try:
+    z=x/y
+    print(z)
+except ZeroDivisionError:
+    print('pls provide >= then 1')
